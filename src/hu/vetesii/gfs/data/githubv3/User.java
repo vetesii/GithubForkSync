@@ -1,0 +1,31 @@
+package hu.vetesii.gfs.data.githubv3;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown=true)
+public class User {
+
+    public String avatar_url;
+    public String events_url;
+    public String followers_url;
+    public String following_url;
+    public String gists_url;
+    public String gravatar_id;
+    public String html_url;
+    public Long id;
+    public String login;
+    public String name;
+    public String organizations_url;
+    public String received_events_url;
+    public String repos_url;
+    public Boolean site_admin;
+    public String starred_url;
+    public String subscriptions_url;
+    public String type;
+    public String url;
+
+    public Integer followers;
+    public Integer repos;
+    public Urls urls;
+    public Links _links;
+}
